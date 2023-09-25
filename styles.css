@@ -86,6 +86,7 @@ header{
 .line_design{
     position: relative;
     top: 4rem;
+    z-index: 1;
     left: 5rem;
     background-color: var(--DarkViolet);
     width: 88%;
@@ -113,4 +114,26 @@ input{
     background-color: var(--Cyan);
     color: #ffff;
     cursor: pointer;
+}
+
+/* section */
+.initial_section{
+    position: relative;
+    top: 0rem;
+    background-color: hsl(209.8deg 19.69% 93.92%);
+    height: 100vh;
+}
+.initial_header{
+position: absolute;
+top:11rem;
+left: 31rem;
+}
+.initial_header h1{
+    font-size: 2.2rem;
+    margin-left: 2.4rem;
+}
+.initial_header p{
+    margin-top: 0.4rem;
+    text-align: center;
+    color: var(--GrayishViolet);
 }
