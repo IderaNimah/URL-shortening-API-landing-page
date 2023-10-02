@@ -294,6 +294,44 @@ footer {
   margin-top: 10px;
   color: var(--GrayishViolet);
 }
-.links img{
-   
+.links img {
+}
+@media screen and (max-width: 428px) {
+  .mobile {
+    display: none;
+  }
+  .illustration img {
+    max-width: 60%;
+  }
+  .initial_container {
+    overflow: unset;
+    flex-direction: column-reverse;
+  }
+  .box_one,
+  .box_two,
+  .box_three {
+    position: unset;
+  }
+  .line,
+  .line_two {
+    position: unset;
+  }
+  .initial_boost h1 {
+    position: unset;
+  }
+  .initial_boost button {
+    position: unset;
+  }
+  .design input {
+    width: 1rem;
+  }
+  .initial_header {
+    position: unset;
+  }
+  .line_design {
+    position: unset;
+  }
+  .design {
+    position: unset;
+  }
 }
